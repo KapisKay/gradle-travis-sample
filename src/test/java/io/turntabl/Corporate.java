@@ -14,6 +14,6 @@ public class Corporate extends Client{
 
     @Override
     public String getContactName() {
-        return null;
+        return getAccountManger();
     }
 }
